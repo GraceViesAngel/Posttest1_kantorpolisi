@@ -13,7 +13,7 @@ yang pertama jalankan program untuk mengakses sistem kantor polisi tersebut, set
 
 
 
-#### MENGETIK ANGKA 1 (Informasi Polisi)
+#### -> MENGETIK ANGKA 1 (Informasi Polisi)
 <img width="640" height="675" alt="image" src="https://github.com/user-attachments/assets/d440d465-193f-413d-8ff1-5b9d4267401c" />
 
 
