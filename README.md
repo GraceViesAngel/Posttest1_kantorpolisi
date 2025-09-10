@@ -1,4 +1,7 @@
 # KANTOR POLISI
+
 ## DESKRIPSI
 Kantor polisi adalah lembaga layanan publik yang menjaga ketertiban, menegakkan hukum, dan melindungi masyarakat; untuk menertibkan alur kerja harian saya membuat sistem manajemen kantor polisi berbasis konsol dengan tiga menu utama yang sesuai dengan program saya, yaitu Informasi Polisi yang mengelola data personel berupa NRP tiga digit, nama, pangkat, dan status Aktif atau Cuti lengkap dengan operasi tambah, lihat data, detail ringkasan per NRP, ubah, dan hapus; Jadwal Patroli yang merencanakan dan memantau patroli melalui ID jadwal berformat huruf J diikuti angka, tanggal pola dd MM yyyy, area, NRP petugas, serta status Dijadwalkan atau Telah Selesai beserta fitur buat jadwal, lihat semua, ubah tanggal atau area, tandai selesai, filter berdasarkan area atau status, dan hapus; serta Kasus Penyelidikan yang mencatat progres perkara melalui ID kasus berformat huruf K diikuti angka, judul, status Baru, Proses, atau Ditutup, dan penyidik NRP dengan fungsi tambah, lihat baik semua maupun per status, ubah status, serta hapus sehingga seluruh informasi terkumpul di satu tempat, pencarian dan pemantauan menjadi cepat dan jelas, dan koordinasi petugas lebih lancar.
+
+
 <img width="640" height="382" alt="image" src="https://github.com/user-attachments/assets/b36180b7-d4b5-46f3-a60b-341a554f4e03" />
