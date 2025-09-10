@@ -10,9 +10,6 @@ Kantor polisi adalah lembaga layanan publik yang menjaga ketertiban, menegakkan 
 
 yang pertama jalankan program untuk mengakses sistem kantor polisi tersebut, setelah program dijalankan akan muncul tampilan atau output dengan tampilan kantor polisi dan selamat datang, lalu muncul menu utama yang ada pada sistem kantor polisi tersebut dengan 3 menu utama yang pertama informasi polisi, yang kedua jadwal patroli, yang ketiga kasus penyelidikan, dan yang keempat keluar. lalu pengguna memilih menu dengan mengetik angka dari angka 1 sampai 4.
 
-
-
-
 ### MENGETIK ANGKA 1
 <img width="640" height="675" alt="image" src="https://github.com/user-attachments/assets/d440d465-193f-413d-8ff1-5b9d4267401c" />
 Jika pengguna mengetik angka 1 dan masuk ke Informasi Polisi, sistem membuka kotak Fitur Informasi Polisi yang berisi pilihan untuk menambah data personel baru dengan NRP tiga digit, nama, pangkat, dan status; melihat seluruh data dalam tabel rapi; menampilkan detail ringkasan satu polisi berdasarkan NRP; mengubah data yang sudah ada; menghapus data polisi; serta kembali ke menu utama—semua dijalankan cukup dengan mengetik nomor fitur pada kolom Pilih.
