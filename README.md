@@ -13,8 +13,15 @@ yang pertama jalankan program untuk mengakses sistem kantor polisi tersebut, set
 
 
 
-### MENGETIK ANGKA 1
+### MENGETIK ANGKA 1 (Informasi Polisi)
 <img width="640" height="675" alt="image" src="https://github.com/user-attachments/assets/d440d465-193f-413d-8ff1-5b9d4267401c" />
 
 
 Jika pengguna mengetik angka 1 dan masuk ke Informasi Polisi, sistem membuka kotak Fitur Informasi Polisi yang berisi pilihan untuk menambah data personel baru dengan NRP tiga digit, nama, pangkat, dan status; melihat seluruh data dalam tabel rapi; menampilkan detail ringkasan satu polisi berdasarkan NRP; mengubah data yang sudah ada; menghapus data polisi; serta kembali ke menu utama—semua dijalankan cukup dengan mengetik nomor fitur pada kolom Pilih.
+
+
+### FITUR INFORMASI POLISI (1. Tambah data Polisi)
+<img width="651" height="431" alt="image" src="https://github.com/user-attachments/assets/8dbe92b6-f009-47ed-91fe-baa170779d6b" />
+
+
+Setelah masuk kedalam menu informasi polisi sistem akan menampilkan output yaitu fitur informasi polisi, disini ketika pengguna mengetik angka 1 pada fitur informasi polisi yaitu tambah data polisi, disini pengguna akan disuruh untuk menginputkan nrp baru sebanyak 3 angka unik yang berbeda dari polisi lainnya, memasukkan nama, pangkat dan juga status apakah polisi ini aktif atau cuti.
