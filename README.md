@@ -62,3 +62,34 @@ Selanjutnya akan masuk kedalam tampilan menu fitur informasi polisi disini saya 
 Selanjutnya jika memilih opsi 5 (Hapus Data Polisi) pada menu Fitur Informasi Polisi, sistem akan meminta NRP yang akan dihapus—misalnya diisi 101 lalu program mencari data dengan NRP tersebut di daftar, menghapusnya jika ditemukan dan kembali ke menu fitur (atau menampilkan pemberitahuan “NRP tidak ditemukan” bila nomornya tidak ada).
 
 
+### FITUR INFORMASI POLISI (6. Kembali)
+<img width="541" height="567" alt="image" src="https://github.com/user-attachments/assets/f7c5ebb3-c1ea-4d78-8b49-244905615c61" />
+
+
+
+Selanjutnya akan masuk kedalam fitur informasi polisi lagi, disini pengguna menekan pilihan 6 (Kembali) di dalam Fitur Informasi Polisi sehingga submenu ditutup tanpa mengubah data apa pun, lalu program langsung memuat ulang layar utama dengan bingkai judul KANTOR POLISI dan sapaan kembali untuk SELAMAT DATANG DI SISTEM KANTOR POLISI. Setelah itu sistem menampilkan Menu Utama yang berisi empat opsi — Informasi Polisi, Jadwal Patroli, Kasus Penyelidikan, dan Keluar — dan kursor berhenti di kolom “Pilih:” menunggu input berikutnya; pada titik ini pengguna bisa melanjutkan ke menu lain dengan mengetik angka 1, 2, atau 3, atau menutup aplikasi dengan mengetik angka 4.
+
+
+
+### MASUK KE MENU JADWAL PATROLI
+<img width="531" height="563" alt="image" src="https://github.com/user-attachments/assets/9862888b-3167-4a52-85ce-870fc168a70f" />
+
+
+Selanjutnya dari menu utama, pengguna mengetik angka 2 untuk masuk ke Jadwal Patroli; layar kemudian menampilkan kotak berjudul “JADWAL PATROLI” dengan enam opsi, yaitu membuat jadwal baru dengan mengisi tanggal berformat dd-MM-yyyy, area patroli, dan NRP petugas sehingga sistem otomatis memberi ID berformat J-angka dan status awal “Dijadwalkan”; melihat seluruh jadwal dalam tabel rapi agar tanggal, area, nama petugas, dan status mudah dibaca; mengubah jadwal tertentu dengan memilih ubah tanggal atau ubah area serta dapat menandai Telah Selesai bila patroli sudah dilakukan; memfilter daftar berdasarkan area atau status untuk menampilkan jadwal yang relevan saja; menghapus jadwal dengan memasukkan ID yang sesuai; dan kembali ke Menu Utama bila ingin berpindah ke fitur lain.
+
+
+### JADWAL PATROLI (1. Buat jadwal)
+<img width="516" height="338" alt="image" src="https://github.com/user-attachments/assets/c11c4c60-dd31-4048-8598-fc771641ef1c" />
+
+<img width="541" height="373" alt="image" src="https://github.com/user-attachments/assets/bec36d0b-4ebe-44a8-9c37-e13044649911" />
+
+
+Pada layar Jadwal Patroli disini saya memilih opsi 1 (Buat Jadwal), lalu sistem membuka form BUAT JADWAL dan meminta tiga isian berurutan: tanggal dengan pola dd-MM-yyyy (contoh 29-10-2025), area patroli (contoh Perjuangan), dan NRP petugas tiga angka (contoh 110). Setelah diisi, program memeriksa apakah input yang dibuat ini khususnya NRP harus ada di daftar personel kemudian otomatis membuat ID jadwal berformat J-angka, menyimpan data ke ArrayList, dan memberi status awal “Dijadwalkan”. Jadwal yang baru tercatat ini akan muncul saat Lihat Jadwal, dapat diubah tanggal atau areanya, bisa ditandai “Telah Selesai”, difilter berdasarkan area atau status, atau dihapus melalui menu lain; jika NRP tidak ditemukan atau format salah, sistem menolak penyimpanan dan meminta pengguna memperbaiki input.
+
+
+
+
+
+
+
+
