@@ -25,3 +25,18 @@ Jika pengguna mengetik angka 1 dan masuk ke Informasi Polisi, sistem membuka kot
 
 
 Setelah masuk kedalam menu informasi polisi sistem akan menampilkan output yaitu fitur informasi polisi, disini ketika pengguna mengetik angka 1 pada fitur informasi polisi yaitu tambah data polisi, disini pengguna akan disuruh untuk menginputkan nrp baru sebanyak 3 angka unik yang berbeda dari polisi lainnya, memasukkan nama, pangkat dan juga status apakah polisi ini aktif atau cuti.
+
+
+### FITUR INFORMASI POLISI (2. Lihat data)
+<img width="570" height="676" alt="image" src="https://github.com/user-attachments/assets/a06d6b91-b421-4f05-859e-ef1b4a44467c" />
+
+
+Setelah itu saat pengguna mengetik 2 yaitu lihat data, program akan menampilkan data polisi yang sudah ada, dan juga inputan yang sudah kita buat sebelumnya pada fitur no 1 yaitu tambah data polisi
+
+
+### FITUR INFORMASI POLISI (3. Detail ringkasan (by NRP))
+<img width="532" height="394" alt="image" src="https://github.com/user-attachments/assets/44e87b9f-ffce-457a-af0e-c824c70e1017" />
+
+Masukkan 
+
+
