@@ -118,5 +118,62 @@ Program akan masuk atau kembali ke Jadwal Patroli dan memilih opsi 5 (Hapus Jadw
 
 
 
+#### -> JADWAL PATROLI (6. Kembali)
+<img width="525" height="562" alt="image" src="https://github.com/user-attachments/assets/2cb25f2d-e841-421c-b12b-daea3c362341" />
 
 
+Selanjutnya pilih no 6 (Kembali) pada menu Jadwal Patroli, sehingga submenu ditutup tanpa mengubah data apa pun dan program langsung menampilkan lagi banner KANTOR POLISI serta SELAMAT DATANG DI SISTEM KANTOR POLISI, lalu memunculkan Menu Utama dengan empat opsi—Informasi Polisi, Jadwal Patroli, Kasus Penyelidikan, dan Keluar—serta kursor berhenti di kolom “Pilih:” untuk menunggu input berikutnya (1–4).
+
+
+
+#### -> MASUK KE MENU KASUS PENYELIDIKAN
+<img width="538" height="540" alt="image" src="https://github.com/user-attachments/assets/7beee38a-e42c-44cf-8f5a-3e747ed8ac21" />
+
+
+Dari Menu Utama disini ingin masuk kedalam menu kasus penyelidikan dan mengetik angka 3 untuk membuka Kasus Penyelidikan, lalu layar menampilkan kotak berisi pilihan pengelolaan kasus. Di sini pengguna dapat menambahkan kasus baru dengan mengisi judul dan NRP penyidik sehingga sistem otomatis membuat ID K-angka dan memberi status awal Baru; melihat daftar kasus dengan opsi filter sehingga dapat ditampilkan Semua, hanya yang Baru, yang sedang Proses, atau yang sudah Ditutup dalam tabel yang rapi; mengubah status suatu kasus dengan memasukkan ID lalu memilih apakah statusnya menjadi Baru, Proses, atau Ditutup agar perkembangan perkara tercatat; menghapus kasus tertentu dengan memasukkan ID bila datanya tidak lagi diperlukan; atau kembali ke Menu Utama. Seluruh perintah dijalankan dengan mengetik angka 1 sampai 5 pada kolom “Pilih:” sesuai kebutuhan.
+
+
+#### -> KASUS PENYELIDIKAN (1. Tambah kasus)
+<img width="536" height="528" alt="image" src="https://github.com/user-attachments/assets/a76dfc05-42b0-4b18-8a9f-386351833478" />
+
+Selanjutnya jika ingin dan mau menambahkan kasus yang ada tinggal memilih atau mengetik 1 (Tambah Kasus), sehingga program membuka formulir singkat berisi Judul dan Penyidik NRP tiga angka; setelah diisi “Pembunuhan” dan 105, sistem memeriksa format serta memastikan NRP tersebut ada pada data personel, lalu otomatis membuat entri kasus baru dengan ID berformat K-angka dan status awal “Baru”, menyimpannya ke ArrayList, dan mengembalikan layar ke menu Kasus Penyelidikan agar pengguna bisa langsung melanjutkan misalnya melihat daftar kasus, memfilter, mengubah status menjadi Proses atau Ditutup, atau menghapus bila diperlukan.
+
+
+#### -> KASUS PENYELIDIKAN (2. Lihat Kasus (Filter Status))
+<img width="677" height="614" alt="image" src="https://github.com/user-attachments/assets/2822a518-2d20-4be1-9937-ef05777ddaf8" />
+
+
+<img width="657" height="501" alt="image" src="https://github.com/user-attachments/assets/22b53c19-4e77-4942-b548-fbb040c5ba22" />
+
+
+Program akan masuk kembali ke menu Kasus Penyelidikan lalu disini jika ingin memilih 2 (Lihat Kasus); sistem akan menampilkan subpilihan Semua, Baru, Proses, Ditutup, dan ketika menekan 1 (Semua) program mencetak blok [SEMUA] berupa tabel rapi dengan kolom ID, Judul, Status, dan Penyidik. Setiap baris memperlihatkan kasus dari seluruh status, ID berformat K-angka, dan NRP penyidik tiga digit; daftar ini memuat data awal sekaligus entri terbaru, misalnya kasus “Pembunuhan” dengan ID K-10, status Baru, dan penyidik 105. Jika pada langkah ini pengguna memilih Baru, Proses, atau Ditutup, maka tabel yang muncul hanya menampilkan kasus sesuai kategori tersebut.
+
+
+
+#### -> KASUS PENYELIDIKAN (3. Ubah Status (Baru/Proses/Ditutup))
+<img width="580" height="726" alt="image" src="https://github.com/user-attachments/assets/dcf41b35-9d07-47be-ad42-575a9a8c5a34" />
+
+
+
+
+Selanjutnya program akan kembali berada di menu Kasus Penyelidikan disini saya memilih 3 (Ubah Status), lalu mengetik ID kasus: k-4. Sistem menampilkan pilihan status 1) Baru 2) Proses 3) Ditutup, pengguna memilih 3 sehingga status kasus K-4 (Perjudian Ilegal) yang awalnya status ini adalah Proses diperbarui menjadi Ditutup di data. Setelah perubahan disimpan, program kembali ke menu Kasus Penyelidikan; pengguna kemudian memilih 2 (Lihat Kasus) dan menekan 1 (Semua) untuk memastikan hasilnya. Tabel [SEMUA] yang muncul menampilkan seluruh kasus dengan kolom ID, Judul, Status, Penyidik, dan terlihat bahwa K-4 sekarang berstatus Ditutup, menandakan proses ubah status berhasil diterapkan. Jika pada langkah awal ID tidak ditemukan atau formatnya salah, sistem akan menolak pembaruan dan memberi pesan sehingga data tetap aman.
+
+
+#### KASUS PENYELIDIKAN (4. Hapus kasus)
+<img width="469" height="437" alt="image" src="https://github.com/user-attachments/assets/266930d1-4d75-422b-a043-432bc89d4d01" />
+
+
+Program akan kembali ke menu Kasus Penyelidikan jetika memilih 4 (Hapus Kasus). Pertama disini saya mengetik ID kasus: k-10; karena ID tersebut valid dan ada di data, program akan menghapus tersebut dari lalu kembali ke menu Kasus Penyelidikan. Berikutnya saya ingin mengulangi pilihan 4 tetapi memasukkan ID kasus: 12lw; ID ini tidak sesuai format (seharusnya K-angka, misalnya K-10) sekaligus tidak ada di daftar, sehingga sistem menolak operasi dan menampilkan pesan “ID tidak ditemukan.”. Alur ini menunjukkan bahwa penghapusan mewajibkan ID yang benar dan terdaftar, sehingga data lain tetap aman bila input salah
+
+
+#### -> KASUS PENYELIDIKAN (5. Kembali)
+<img width="483" height="446" alt="image" src="https://github.com/user-attachments/assets/52a9290d-2c28-49d6-9a26-1929480c8e7a" />
+
+
+Selanjutnya saya mengetik no 5 (Kembali) pada menu Kasus Penyelidikan, sehingga submenu ditutup tanpa mengubah data apa pun dan program menampilkan lagi banner KANTOR POLISI serta SELAMAT DATANG DI SISTEM KANTOR POLISI, lalu muncul Menu Utama dengan empat opsi—1 Informasi Polisi, 2 Jadwal Patroli, 3 Kasus Penyelidikan, 4 Keluar.
+
+
+## KELUAR DARI PROGRAM
+<img width="531" height="364" alt="image" src="https://github.com/user-attachments/assets/b93d27a3-d030-4691-9dee-c3a8feee9718" />
+
+Selanjutnya saya ingin keluar dari program dan mengetik angka 4 (Keluar) di Menu Utama, program menampilkan pesan “Selesai.” dan eksekusi berakhir. Terminal/IDE kemudian mencetak ringkasan proses (BUILD SUCCESS, durasi, dan waktu selesai) sebagai tanda bahwa aplikasi Sistem Kantor Polisi telah ditutup dengan normal tanpa error.
