@@ -37,6 +37,28 @@ Setelah itu saat pengguna mengetik 2 yaitu lihat data, program akan menampilkan 
 ### FITUR INFORMASI POLISI (3. Detail ringkasan (by NRP))
 <img width="532" height="394" alt="image" src="https://github.com/user-attachments/assets/44e87b9f-ffce-457a-af0e-c824c70e1017" />
 
-Masukkan 
+setelah itu pengguna berada di menu Fitur Informasi Polisi dan memilih opsi 3 (Detail Ringkasan by NRP); sistem kemudian menanyakan “Masukkan NRP”, misalnya diisi 114, lalu program mencari NRP tersebut di daftar polisi pada ArrayList, dan jika ditemukan akan menampilkan kartu ringkas satu orang dengan format rapi berisi NRP, Nama, Pangkat, dan Status sebagaimana terlihat pada output “NRP: 114, Nama: Naufal Rizqi, Pangkat: Briptu, Status: Aktif”; tampilan berbingkai garis ini memudahkan pengecekan cepat tanpa harus menampilkan seluruh data, sedangkan jika NRP tidak ada maka program akan memberi pesan bahwa data tidak ditemukan dan pengguna dapat kembali memilih fitur lain di menu Informasi Polisi.
+
+
+
+### FITUR INFORMASI POLISI (4. Ubah data)
+<img width="537" height="588" alt="image" src="https://github.com/user-attachments/assets/d5bf7d3d-6e90-44f1-b244-7187998b78eb" />
+
+
+
+Selanjutnya akan masuk kedalam tampilan menu fitur informasi polisi disini saya memilih opsi 4 (Ubah Data) di menu Fitur Informasi Polisi, lalu sistem meminta NRP yang akan diedit; setelah NRP 101 dimasukkan, program menampilkan isian singkat dengan menampilkan nilai lama sebagai panduan—Nama (Andi Saputra) kemudian diganti menjadi Galuh Anin, Pangkat diisi Kompol, dan Status menjadi Aktif setelah pengguna setelah itu, perubahan akan disimpan pada data polisi dengan NRP 101 dan layar otomatis kembali ke kotak Fitur Informasi Polisi sehingga pengguna bisa langsung melanjutkan memilih fitur berikutnya.
+
+
+
+
+### FITUR INFORMASI POLISI (5. Hapus data)
+<img width="515" height="279" alt="image" src="https://github.com/user-attachments/assets/79d16aba-706f-4912-952d-094a1a867462" />
+
+
+<img width="549" height="319" alt="image" src="https://github.com/user-attachments/assets/20291e61-7ce4-431e-826c-bafdbdf26a11" />
+
+
+
+Selanjutnya jika memilih opsi 5 (Hapus Data Polisi) pada menu Fitur Informasi Polisi, sistem akan meminta NRP yang akan dihapus—misalnya diisi 101 lalu program mencari data dengan NRP tersebut di daftar, menghapusnya jika ditemukan dan kembali ke menu fitur (atau menampilkan pemberitahuan “NRP tidak ditemukan” bila nomornya tidak ada).
 
 
